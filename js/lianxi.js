@@ -10,7 +10,10 @@ var app=angular.module("myApp",[]);
         /*2、渲染到页面*/
         bindings:{
           data:'='
-        }
+        },
+        controller:["$scope",function ($scope) {
+            console.log($scope);
+        }]
     });
     app.component("pageFoot",{
         templateUrl:"./tpl/component/pagefoot.html"
