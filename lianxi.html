@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lianxi</title>
+    <script src="js/common/angular.min.js"></script>
+    <script src="js/lianxi.js"></script>
+</head>
+<body ng-app="myApp">
+    <div ng-controller="ctrl">
+        <page-header></page-header>
+        <page-slide></page-slide>
+        <!--绑定数据-->
+        <page-content data="data"></page-content>
+        <page-foot></page-foot>
+    </div>
+
+</body>
+</html>
